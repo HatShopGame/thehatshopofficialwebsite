@@ -14,7 +14,7 @@
 h1
 {
  padding-top: 70px;
- font-size: 200%;
+ font-size: 450%;
 }
 .button1 
 {
@@ -104,6 +104,11 @@ font-size: 15%
 
 }
 
+label
+{
+  color: white;
+}
+
 .entry
 {
 	background-color: #191b24;
@@ -113,6 +118,14 @@ font-size: 15%
 	margin-top: 50px;
 	margin-left: 100px;
 	margin-right: 100px;
+}
+
+.invisdiv
+{
+  border-width: 7px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 @keyframes play

@@ -7,31 +7,71 @@
 		<link rel="stylesheet" href="hatshopstyle.css">
     
 	</head>
-	<body>
-		<div id="background">
+	<body style="background:#191b24;">
+		<div style="float: right; width: 50%; height: 200%;">
+			<center>
+			<h1 style="color: white">Contact Us</h1><br>
+
+			<div style="float: left; padding-left: 10%;">
+			<p style="color: white">Gmail</p>
+			<a href="https://mail.google.com/mail/u/0/">
+			<img src="images/Gmail pixel icon.png" alt="gmail button" height="200px">
+			</a>
+			</div>
+
+			<div style="float: right; padding-right: 10%;">
+			<p style="color: white">Email</p>
+			<a href="mailto:thehatshopofficial@gmail.com">
+			<img src="images/Mail pixel icon.png" alt="mail button" height="200px">
+			</a>
+			</div>
+			</center>
+		</div>
+		
+
+		<div style="float: left; width: 50%; height: 100%;">
 		<center>
-			<ul class="top">
-  		<li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-  		<li><a href="community.html">Community</a></li>
- 		<li><a class="active" href="contact.html">Contact Us</a></li>
-        <li><a href="Get.html">Get</a></li>
+			<ul >
+  		<li><a href="#" onclick="window.close();" >Close</a></li>
 			</ul>
 		</center>
-		<div class="topMargin">
-		<h1 style="color:#dedede"><strong><center>GET THE HAT SHOP</center></strong></h1>
-		</div>
-		<h2></h2>
 		<center>
-				
-				<button class="button2" href="#Steam">Get on Steam</button>
-				
-			
-				<button class="button2" href="#Steam">Get on Place</button>
-			
-				
-				<button class="button2" href="#Steam">Get on Place</button>
-			
+		<form action="thehatshopofficial@gmail.com" method="post">
+			<div class="entry">
+			<label for="Name">Name</label><br>
+			<input type="text" name="Name" id="Name">
+			</div>
+			<div class="entry">
+			<label for="Email">Email</label><br>
+			<input type="text" name="Email" id="Email"><br>
+			</div>
+			<div class="entry">
+			<label for="Affiliation">Affiliation</label><br>
+			<input type="text" name="Affiliation" id="Affiliation">
+			</div>
+			<div class="entry">
+			<label for="addinfo">Information</label><br>
+			<textarea name="addinfo" id="addinfo" width="40%" rows="10">Type here</textarea><br>
+			</div>
+			<div class="entry">
+			 <label for="state">Reason for Contact</label><br>
+    		<select name="Reason for Contact" id="Rfc">
+
+    			<option value="Rfc">*Reason for Contact*</option>
+
+          		<option value="offerjob">Report A Bug</option>
+
+          		<option value="meeting">Request a Meeting</option>
+
+          		<option value="other">Other</option>
+
+     		</select>
+     		</div>
+     		<div class="entry">
+			<input type="submit" value="Submit">
+			<input type="reset" value="Clear">
+			</div>
+		</form>
 		</center>
 		</div>
 	</body>
