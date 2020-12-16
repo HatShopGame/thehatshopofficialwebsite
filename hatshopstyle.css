@@ -14,7 +14,7 @@
 h1
 {
  padding-top: 70px;
- font-size: 450%;
+ font-size: 500%;
 }
 .button1 
 {
@@ -100,7 +100,7 @@ font-family: "slkscr";
 p.solid
 {
 border-style: solid;
-font-size: 15% 
+font-size: 25% 
 
 }
 
@@ -109,8 +109,19 @@ label
   color: white;
 }
 
+h2
+{
+font-size: 300%;
+}
+
+.input
+{
+width: 100%;
+}
+
 .entry
 {
+  text-align: left;
 	background-color: #191b24;
 	border-style: solid;
 	border-color: #2a2b31;
@@ -118,6 +129,20 @@ label
 	margin-top: 50px;
 	margin-left: 100px;
 	margin-right: 100px;
+}
+
+.comunityentry
+{
+  color:#dedede;
+  text-align: left;
+  background-color: #191b24;
+  border-style: solid;
+  border-color: #2a2b31;
+  border-width: 7px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 45%;
 }
 
 .invisdiv
