@@ -28,42 +28,6 @@ h1
   font-size: 16px;
 }
 
-.button1:hover 
-{
-  background-color: #9c1759;
-  transform: translateY(2px);
-}
-
-ul 
-{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #191b24;
-  position: fixed;
-  top:0;
-  width: 100%;
-}
-
-li 
-{
-  float: left;
-}
-
-li a 
-{
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 20px 20px;
-  text-decoration: none;
-
-}
-
-li a:hover:not(.active) {
-  background-color: #2a2b31;
-}
 
 .active 
 {
@@ -77,10 +41,6 @@ p.notoSans
 	font-family: "notoSans";
 }
 */
-.phaseIn 
-{
-  animation-name: play;
-  animation-duration: 2.5s;
 }
 .topMargin
 {
@@ -97,10 +57,9 @@ body
 font-family: "slkscr";
 }
 
-p.solid
+p
 {
-border-style: solid;
-font-size: 25% 
+font-size: 125% 
 
 }
 
@@ -112,6 +71,11 @@ label
 h2
 {
 font-size: 300%;
+}
+
+h3
+{
+  font-size: 200%;
 }
 
 .input
@@ -133,7 +97,7 @@ width: 100%;
 
 .comunityentry
 {
-  color:#dedede;
+  color: #dedede;
   text-align: left;
   background-color: #191b24;
   border-style: solid;
@@ -153,8 +117,59 @@ width: 100%;
   margin-right: 100px;
 }
 
-@keyframes play
-{
-  from {opacity: 0.01}
-  to {opacity: 1.0}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #191b24;
+  
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: #dedede;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: #2a2b31;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #335a35;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #191b24;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #dedede;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #2a2b31;;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
 }
